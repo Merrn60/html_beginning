@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+
+:root
+{
+    --text-color: #fff;
+    --bg-color: black;
+    --main-color:tomato;
+    --h1-font: 6rem;
+    --h2-font:3rem;
+    --p-font: 1rem;
+}
+
+body
+{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background: transparent;
+    padding: 27px 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.50s ease;
+}
+.logo
+{
+    font-size: 34px;
+    font-weight: 700px;
+    color: var(--text-color);
+}
+
+
+.right
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.right a:first-child
+{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    margin-right: 20px;
+}
+.right a
+{
+    font-size: 20px;
+    color: var(--main-color);
+    margin: 5px;
+    transition: all 0.50s ease;
+}
+.right a:hover
+{
+    color: var(--text-color);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+
+.centent
+{
+    display: flex;
+}
+.centent a
+{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all 0.50s ease;
+}
+.centent a:hover
+{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+section{
+    padding: 70px 17% 60px;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.6) , rgba(0,0,0,0.6)),url(pexels-jeffry-surianto-17972353.jpg);
+    
+    
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home-c h4{
+
+
+
+    font-size: 20px;
+    font-weight: 600px;
+   
+   
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--main-color);
+}
+.home-c h1{
+    font-size: var(--h1-font);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.home-c p{
+    font-size: var(--p-font);
+    font-weight: 600;
+    line-height: 30px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+.b0tn{
+    display: inline-block;
+    padding: 13px 40px;
+    background:fff;
+    color:gold;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.50s ease;
+    cursor: pointer;
+}
+
+
+
+
+   
+     .b0tn:hover{   
+    transform: translateX(10px);
+    background: var(--text-color);
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+}
+
+
+
+
+
+.plan
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px , auto));
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+
+
+
+
+.row-img
+{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.row-img img
+    {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.50s ease;
+}
+.row-img img:hover
+      {
+    transform: scale(1.2);
+}
+.tour-c h4
+{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.50s ease;
+}
+.tour-c h4:hover
+{
+    color: var(--main-color);
+}
+
+
+
+
+
+header.centent
+{
+    padding: 8px 17%;
+    background: transparent;
+    backdrop-filter: blur(35px);
+
+
+               }
+.RECC
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 9rem;
+}
+.RECC-img img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.RECC-text h4
+      {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.RECC-text h2
+{
+    font-size: var(--h2-font);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.RECC-text p
+{
+    font-size: var(--p-font);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1.1;
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+
+
+
+.footer
+
+                {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    align-items: center;
+    gap: 2rem;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h3{
+
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.footer-box a{
+
+
+    color: #979797;
+    margin-bottom: 0.8rem;
+    transition: all 0.50ss ease;
+}
+.footer-box a:hover{
+
+
+
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
