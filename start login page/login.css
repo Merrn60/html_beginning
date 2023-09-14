@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ .btnlogin   {
+    width: 100%;
+    padding: 10px;
+    
+
+    background: #fff;
+    color: goldenrod;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     font-size: medium;
+     font-weight: 800;
+  }
+
+
+   .btnlogin:hover{
+    background-color: #61fb66;
+    color: #fff;
+  }
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+    z-index: 99;
+
+  }
+   
+  .REEN{
+    font-size: 2em;
+   font-family:unset;
+    user-select: none;
+    
+  }
+
+
+  .navigation a{
+    position:relative;
+    font-size: medium;
+    color: #fff;
+    text-decoration:none;
+    font-weight: 500;
+    margin-left: 40px;
+     
+    
+  }
+
+  .navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background:goldenrod;
+    border-radius: 5px;
+    transform-origin:center;
+    transform: scaleX(0);
+     transition: transform .5s;
+     
+    
+  }
+
+  .navigation a:hover::after{
+    transform-origin:center;
+    transform: scaleX(1);
+  }
+   body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pexels-jeffry-surianto-17972353.jpg);
+    background-size: cover;
+    background-position: center;
+  
+   }
+
+
+
+
+   .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    
+    margin-bottom: 10px;
+    pointer-events: none;
+    font-weight: 500;
+   
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+     
+  }
+  
+   
+  
+.container{
+    
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    align-items: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.login{
+    width: 150px;
+   padding-bottom: 10%;
+   padding-top: 5%;
+   padding-left: 10%;
+  text-align: center;
+  justify-content: center;
+}
+.login h2{
+    font: size 2em;
+    color: #162938;
+     
+     
+  
+}
+ 
+  
+   
