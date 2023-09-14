@@ -1,0 +1,65 @@
+ h1{
+    
+    text-align: center;
+     
+ }
+ body{
+    background-image: url(pexels-freestocksorg-744464.jpg) ;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .container{
+    position:sticky;
+    width: 400px;
+    height: 400px;
+    
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    align-items: center;
+    
+     
+    padding-left: 10px;
+    padding-right: 20px;
+
+    display:grid;
+    justify-content: center;
+     
+   
+}
+ 
+ h2{
+    font: size 2em;
+    color: #162938;
+    width: 150px;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+   text-align: center;
+   justify-content: center;
+     
+  
+}
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    
+    margin-bottom: 10px;
+    pointer-events: none;
+    font-weight: 500;
+   
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+     
+  }
+  
